@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 1em;
+  text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 190px;
+}
+
+section {
+  margin: 2em;
+  text-align: center;
+  border-bottom: 2px solid #88b2ff;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+  
+}
+h3::before {
+  content: "";
+  background-image: url(https://img.icons8.com/material-rounded/24/null/chevron-down.png);
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+h4 {
+  font-size: 1em;
+  margin-bottom: 0.3em;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+a {
+
+  text-decoration:none;
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 1em;
+  text-align: center;
+}
